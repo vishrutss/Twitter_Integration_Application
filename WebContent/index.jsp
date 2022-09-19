@@ -10,8 +10,8 @@
 		
  	ConfigurationBuilder cb=new ConfigurationBuilder();
 	cb.setDebugEnabled(true)
-			.setOAuthConsumerKey("0HuwkkELYNPRySwzXWSbyEGQU")
-			.setOAuthConsumerSecret("7vImC8jYWGAIIHg1TRgsvgla2c9kfikatOQJjVIzeRRPScWznD");
+			.setOAuthConsumerKey("")
+			.setOAuthConsumerSecret("");
 	try {
 		TwitterFactory t=new TwitterFactory(cb.build());
 		Twitter twitter=t.getInstance();
